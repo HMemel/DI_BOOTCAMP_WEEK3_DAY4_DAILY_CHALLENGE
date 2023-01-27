@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway";
+    background-image: linear-gradient(#FF494D, #FF5875);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 20px auto;
+    width: 300px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    height: 40px;
+}
+
+input[type=text] {
+    height: 40px;
+    border: none;
+    width: 80%;
+    background-color: white;
+    padding-left: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    color: #37373D;
+}
+
+button {
+    border: none;
+    color: #399FF2;
+    background-color: white;
+    width: 15%;
+    height: 40px;
+}
+
+.listTasks {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+
+.icon {
+    background-color: #FF494D;
+    color: white;
+    padding: 2px 3px;
+    font-size: 15px;
+}
+
+input[type=checkbox] {
+    width: 12px;
+    height: 12px;
+}
+
+.task {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #399FF2;
+    color: #37373D;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: red;
+}
+
+#clearPanel {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+#clearPanel button {
+    color: #FF494D;
+}
